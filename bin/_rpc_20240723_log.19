@@ -1,0 +1,19 @@
+[Debug]	[24-07-23 12:01:29.352]	[8010:8010]	[rocket/net/timer.cc:131]	now time =1721736089352
+[Debug]	[24-07-23 12:01:29.352]	[8010:8010]	[rocket/net/timer_event.cc:22]	success create timer event,Nowtime[1721736089352],interval time[1000] ,will excute at [1721736090352]
+[Debug]	[24-07-23 12:03:56.341]	[17379:17382]	[77777776]	[makeOrder]	[rocket/net/coder/tinypb_coder.cc:174]	req_id=77777776
+
+[Debug]	[24-07-23 12:03:56.341]	[17379:17382]	[77777776]	[makeOrder]	[rocket/net/coder/tinypb_coder.cc:176]	pk_len = 58
+
+[Debug]	[24-07-23 12:03:56.341]	[17379:17382]	[77777776]	[makeOrder]	[rocket/net/coder/tinypb_coder.cc:246]	encoder message[77777776] success
+[Debug]	[24-07-23 12:03:56.341]	[17379:17382]	[77777776]	[makeOrder]	[rocket/net/eventloop.cc:249]	add event success, fd[15]
+[Debug]	[24-07-23 12:03:56.341]	[17379:17382]	[77777776]	[makeOrder]	[rocket/net/eventloop.cc:249]	add event success, fd[15]
+[Debug]	[24-07-23 12:03:56.342]	[17379:17382]	[77777776]	[makeOrder]	[rocket/net/eventloop.cc:266]	delete event success, fd[15]
+[Info]	[24-07-23 12:03:56.342]	[17379:17382]	[77777776]	[makeOrder]	[rocket/net/tcp/tcp_connection.cc:97]	peer close, peer addr [127.0.0.1:12345], clientfd[15] 
+[Debug]	[24-07-23 12:03:57.25]	[17379:17379]	[rocket/net/timer.cc:131]	now time =1721736237025
+[Debug]	[24-07-23 12:03:57.25]	[17379:17379]	[rocket/net/timer_event.cc:22]	success create timer event,Nowtime[1721736237025],interval time[1000] ,will excute at [1721736238025]
+[Debug]	[24-07-23 12:08:39.841]	[34846:34846]	[rocket/net/timer.cc:131]	now time =1721736519841
+[Debug]	[24-07-23 12:08:39.842]	[34846:34846]	[rocket/net/timer_event.cc:22]	success create timer event,Nowtime[1721736519842],interval time[1000] ,will excute at [1721736520842]
+[Debug]	[24-07-23 12:22:20.687]	[85781:85781]	[rocket/net/timer.cc:131]	now time =1721737340687
+[Debug]	[24-07-23 12:22:20.687]	[85781:85781]	[rocket/net/timer_event.cc:22]	success create timer event,Nowtime[1721737340687],interval time[1000] ,will excute at [1721737341687]
+[Debug]	[24-07-23 12:25:33.344]	[97857:97857]	[rocket/net/timer.cc:131]	now time =1721737533344
+[Debug]	[24-07-23 12:25:33.344]	[97857:97857]	[rocket/net/timer_event.cc:22]	success create timer event,Nowtime[1721737533344],interval time[1000] ,will excute at [1721737534344]

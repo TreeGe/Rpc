@@ -1,0 +1,25 @@
+[Debug]	[24-07-23 08:57:49.15]	[99677:99677]	[rocket/net/timer_event.cc:22]	success create timer event,Nowtime[1721725069015],interval time[1000] ,will excute at [1721725070015]
+[Info]	[24-07-23 08:57:49.15]	[99677:99677]	[rocket/net/eventloop.cc:184]	wakeup fd = 4
+[Debug]	[24-07-23 08:57:49.15]	[99677:99677]	[rocket/net/timer.cc:11]	timer fd = 5
+[Info]	[24-07-23 08:57:49.15]	[99677:99677]	[rocket/net/eventloop.cc:70]	succese create event loop in thread 99677 
+
+[Info]	[24-07-23 08:57:49.17]	[99677:99680]	[rocket/net/eventloop.cc:184]	wakeup fd = 8
+[Debug]	[24-07-23 08:57:49.17]	[99677:99680]	[rocket/net/timer.cc:11]	timer fd = 9
+[Info]	[24-07-23 08:57:49.17]	[99677:99680]	[rocket/net/eventloop.cc:70]	succese create event loop in thread 99680 
+
+[Debug]	[24-07-23 08:57:49.17]	[99677:99680]	[rocket/net/io_thread.cc:63]	IOThread 99680 created,wait start semaphore
+[Debug]	[24-07-23 08:57:49.17]	[99677:99677]	[rocket/net/io_thread.cc:24]	IOThread 99680 create success
+[Info]	[24-07-23 08:57:49.17]	[99677:99681]	[rocket/net/eventloop.cc:184]	wakeup fd = 11
+[Debug]	[24-07-23 08:57:49.17]	[99677:99681]	[rocket/net/timer.cc:11]	timer fd = 12
+[Info]	[24-07-23 08:57:49.17]	[99677:99681]	[rocket/net/eventloop.cc:70]	succese create event loop in thread 99681 
+
+[Debug]	[24-07-23 08:57:49.17]	[99677:99681]	[rocket/net/io_thread.cc:63]	IOThread 99681 created,wait start semaphore
+[Debug]	[24-07-23 08:57:49.17]	[99677:99677]	[rocket/net/io_thread.cc:24]	IOThread 99681 create success
+[Info]	[24-07-23 08:57:49.17]	[99677:99677]	[rocket/net/tcp/tcp_server.cc:12]	rocket TcpServer listen succes on [127.0.0.1:12345]
+[Info]	[24-07-23 08:57:49.17]	[99677:99677]	[rocket/net/io_thread.cc:79]	Now invoke IOThread 99680
+[Info]	[24-07-23 08:57:49.17]	[99677:99677]	[rocket/net/io_thread.cc:79]	Now invoke IOThread 99681
+[Debug]	[24-07-23 08:57:49.17]	[99677:99680]	[rocket/net/io_thread.cc:67]	IOthread 99680 start loop
+[Debug]	[24-07-23 08:57:49.17]	[99677:99681]	[rocket/net/io_thread.cc:67]	IOthread 99681 start loop
+[Debug]	[24-07-23 08:57:50.16]	[99677:99677]	[rocket/net/eventloop.cc:117]	now end epoll_wait, rt=1
+[Debug]	[24-07-23 08:57:50.16]	[99677:99677]	[rocket/net/timer.cc:131]	now time =1721725070016
+[Debug]	[24-07-23 08:57:50.16]	[99677:99677]	[rocket/net/timer_event.cc:22]	success create timer event,Nowtime[1721725070016],interval time[1000] ,will excute at [1721725071016]

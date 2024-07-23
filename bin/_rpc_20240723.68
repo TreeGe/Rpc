@@ -1,0 +1,6 @@
+[Debug]	[24-07-23 08:58:23.35]	[99677:99677]	[rocket/net/eventloop.cc:117]	now end epoll_wait, rt=1
+[Debug]	[24-07-23 08:58:23.36]	[99677:99677]	[rocket/net/timer.cc:131]	now time =1721725103036
+[Debug]	[24-07-23 08:58:23.36]	[99677:99677]	[rocket/net/timer_event.cc:22]	success create timer event,Nowtime[1721725103036],interval time[1000] ,will excute at [1721725104036]
+[Debug]	[24-07-23 09:00:58.221]	[109286:109286]	[rocket/net/eventloop.cc:117]	now end epoll_wait, rt=1
+[Debug]	[24-07-23 09:00:58.221]	[109286:109286]	[rocket/net/timer.cc:131]	now time =1721725258221
+[Debug]	[24-07-23 09:00:58.221]	[109286:109286]	[rocket/net/timer_event.cc:22]	success create timer event,Nowtime[1721725258221],interval time[1000] ,will excute at [1721725259221]

@@ -1,0 +1,20 @@
+[Debug]	[24-07-23 11:59:47.695]	[2138:2138]	[rocket/net/timer_event.cc:22]	success create timer event,Nowtime[1721735987695],interval time[1000] ,will excute at [1721735988695]
+[Info]	[24-07-23 11:59:47.695]	[2138:2138]	[rocket/net/eventloop.cc:184]	wakeup fd = 4
+[Debug]	[24-07-23 11:59:47.695]	[2138:2138]	[rocket/net/eventloop.cc:249]	add event success, fd[4]
+[Debug]	[24-07-23 11:59:47.695]	[2138:2138]	[rocket/net/timer.cc:11]	timer fd = 5
+[Debug]	[24-07-23 11:59:47.695]	[2138:2138]	[rocket/net/eventloop.cc:249]	add event success, fd[5]
+[Info]	[24-07-23 11:59:47.695]	[2138:2138]	[rocket/net/eventloop.cc:70]	succese create event loop in thread 2138 
+
+[Info]	[24-07-23 11:59:47.696]	[2138:2138]	[rocket/net/rpc/rpc_channel.cc:62]	77777776 | call method name [Order.makeOrder]
+[Debug]	[24-07-23 11:59:47.696]	[2138:2138]	[rocket/net/timer_event.cc:22]	success create timer event,Nowtime[1721735987696],interval time[10000] ,will excute at [1721735997696]
+[Debug]	[24-07-23 11:59:47.696]	[2138:2138]	[rocket/net/eventloop.cc:249]	add event success, fd[7]
+[Debug]	[24-07-23 11:59:47.696]	[2138:2138]	[rocket/net/eventloop.cc:266]	delete event success, fd[7]
+[Debug]	[24-07-23 11:59:47.696]	[2138:2138]	[rocket/net/eventloop.cc:155]	fd 7 trigger EPOLLERROR event 
+[Error]	[24-07-23 11:59:47.696]	[2138:2138]	[rocket/net/tcp/tcp_client.cc:77]	connect error , errno = 111 ,error = Connection refused
+[Debug]	[24-07-23 11:59:47.696]	[2138:2138]	[rocket/net/tcp/tcp_client.cc:98]	new begin to done
+[Error]	[24-07-23 11:59:47.696]	[2138:2138]	[rocket/net/rpc/rpc_channel.cc:105]	77777776 | connect error , error code[0], error info[],peer addr[127.0.0.1:12345]
+[Error]	[24-07-23 11:59:47.696]	[2138:2138]	[rocket/net/tcp/tcp_client.cc:77]	connect error , errno = 111 ,error = Connection refused
+[Debug]	[24-07-23 11:59:47.696]	[2138:2138]	[rocket/net/tcp/tcp_client.cc:98]	new begin to done
+[Error]	[24-07-23 11:59:47.696]	[2138:2138]	[rocket/net/rpc/rpc_channel.cc:105]	77777776 | connect error , error code[10000000], error info[connect refused, sys error =Connection refused],peer addr[127.0.0.1:12345]
+[Debug]	[24-07-23 11:59:48.696]	[2138:2138]	[rocket/net/timer.cc:131]	now time =1721735988696
+[Debug]	[24-07-23 11:59:48.696]	[2138:2138]	[rocket/net/timer_event.cc:22]	success create timer event,Nowtime[1721735988696],interval time[1000] ,will excute at [1721735989696]
