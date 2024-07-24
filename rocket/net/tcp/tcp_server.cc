@@ -50,7 +50,7 @@ namespace rocket
         IOThread* io_thread = m_io_thread_group->getIOThread();     //获取io对象
         TcpConnection::s_ptr connect = std::make_shared<TcpConnection>(io_thread->getEventLoop(),client_fd,128,peer_addr,m_local_addr);
         connect->setState(Connected);
-        m_client.insert(connect);
+        m_client.insert(connect);   //没有析构  使用定时器  定时的查看集合内所有集合
 
         INFOLOG("TcpServer success get client ,fd=%d",client_fd);
     }

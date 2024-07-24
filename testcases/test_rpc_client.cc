@@ -96,8 +96,8 @@ void test_rpc_channel()
         INFOLOG("now exit eventloop");
         channel->getTcpClient()->stop();
         channel.reset(); });
-
-        CALLRPC("127.0.0.1:12345",makeOrder,controller,request,response,closure);
+ 
+        CALLRPC("127.0.0.1:12345", Order_Stub ,makeOrder,controller,request,response,closure);
 }
 int main()
 {
